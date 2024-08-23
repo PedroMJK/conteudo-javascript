@@ -1,0 +1,25 @@
+1. document.getElementById("decreaseBtn")
+document: Representa o documento HTML em si. Em JavaScript, o objeto document é a 
+entrada principal para acessar e manipular o conteúdo da página.
+getElementById("decreaseBtn"): É um método do objeto document que procura e retorna 
+o elemento HTML que tem o ID especificado, neste caso, "decreaseBtn". 
+Se não houver nenhum elemento com esse ID, ele retorna null.
+
+2. .onclick = function() { ... }
+.onclick: É uma propriedade que define o que acontece quando o elemento identificado por 
+"decreaseBtn" é clicado. Estamos atribuindo a essa propriedade uma função anônima.
+function() { ... }: Define uma função anônima (uma função sem nome) que será executada toda 
+vez que o botão com o ID "decreaseBtn" for clicado.
+
+3. count -= 1;
+count: Supõe-se que count seja uma variável global que já foi definida anteriormente no código(count = 0).
+Ela provavelmente armazena um número.
+-= 1: Subtrai 1 da variável count. É equivalente a count = count - 1;. Isso significa que toda 
+vez que o botão é clicado, o valor de count diminui em 1.
+
+4. document.getElementById("countLabel").innerHTML = count;
+getElementById("countLabel"): Aqui, o código está acessando um outro elemento na página que tem
+ o ID "countLabel".
+.innerHTML = count;: A propriedade innerHTML do elemento é atualizada para o valor da variável 
+count. Isso significa que o conteúdo HTML interno do elemento identificado por "countLabel" 
+será alterado para o valor atual de count.
