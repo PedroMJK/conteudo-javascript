@@ -1,0 +1,8 @@
+#colorBox {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(34, 145, 224);
+    margin: 50px auto;
+    border: 2px solid #333;
+    transition: background-color 0.2s ease;
+}
